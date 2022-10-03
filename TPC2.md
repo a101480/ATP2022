@@ -30,7 +30,7 @@ import random
 
 tentativas=1
 liminf=1
-limsup=100
+limsup=101
 pc=random.randrange(liminf,limsup)
 pc=str(pc)
 print ("Será o número " + pc + "?")
