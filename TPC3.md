@@ -19,6 +19,7 @@ esc=int(input("Função: "))
 while esc!=0:
     if esc==1:
         n=0
+        lista=[]
         num=int(input("Quantos números terá a lista?"))
         while n<num:
             a=random.randrange(1,101)
@@ -29,6 +30,7 @@ while esc!=0:
 
     if esc==2:
         n=0
+        lista=[]
         num=int(input("Quantos números terá a lista?"))
         while n<num:
             a=int(input("Número: "))
@@ -117,4 +119,4 @@ while esc!=0:
 
 if esc==0:
     print(lista)
-~~~    
+~~~
